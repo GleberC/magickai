@@ -1,7 +1,7 @@
 # Semana do Zero ao Programador Contratado – Super Trunfo
 
-![GitHub Repo](https://img.shields.io/badge/GitHub-magickai-181717?style=flat&logo=github)
-![Vercel](https://img.shields.io/badge/Live–Vercel-000000?style=flat&logo=vercel)
+![https://github.com/GleberC/magickai](https://img.shields.io/badge/GitHub-magickai-181717?style=flat&logo=github)
+![https://magickai.vercel.app/](https://img.shields.io/badge/Live–Vercel-000000?style=flat&logo=vercel)
 
 Este repositório é parte da “Semana do Zero ao Programador Contratado” do Dev em Dobro.  
 Trata-se de um projeto de **HTML**, **CSS** e **JavaScript** que simula cartas de Super Trunfo personalizadas.
