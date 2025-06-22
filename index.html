@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semana do zero ao programador contratado - Super Cards IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="./src/imagens/ST_logo.png" alt="Logo SUPER TRUNFO IA" />
+    </header>
+    <main class="container">
+      <h1 class="produtos">Produtos</h1>
+      <div class="filtros">
+        <div class="categorias-cartas">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="categoria">
+            <option value="">Selecione uma carta</option>
+            <option value="comum">Comum</option>
+            <option value="rara">Rara</option>
+            <option value="Super Trunfo">Super Trunfo</option>
+          </select>
+        </div>
+        <div class="preco-cartas">
+          <label for="preco">Preço máximo (R$)</label>
+          <input type="text" id="preco" class="preco" placeholder="Ex: 100" />
+        </div>
+        <button class="btn-filtrar">Aplicar filtros</button>
+      </div>
+      <ul class="cartas">
+        <li class="carta" data-categoria="Super Trunfo" data-preco="3000">
+          <img src="./src/imagens/black_viper.png" alt="Black Viper" />
+
+          <div class="informacoes">
+            <h2 class="nome-personagem">Black Viper</h2>
+            <span class="categoria">Categoria: Super Trunfo</span>
+            <span class="preco">R$ 3.000,00</span>
+            <a href="#" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagens/red_scorpion.png" alt="Red Scorpion" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Red Scorpion</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 1500,00</span>
+            <a href="#" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="800">
+          <img src="./src/imagens/dark_bull.png" alt="Dark Bull" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Dark Bull</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 800,00</span>
+            <a href="#" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagens/white_thunder.png" alt="White Thunder" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">White Thunder</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">R$ 1500,00</span>
+            <a href="#" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="800">
+          <img src="./src/imagens/red_shadow.png" alt="Red Shadow" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Red Shadow</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 800,00</span>
+            <a href="#" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Comum" data-preco="800">
+          <img src="./src/imagens/yellow_hornet.png" alt="Yellow Hornet" />
+          <div class="informacoes">
+            <h2 class="nome-personagem">Yellow Hornet</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">R$ 800,00</span>
+            <a href="http://wa.me/55519999999?text=Olá, quero comprar a carta Nyxsombra!" class="btn-comprar" target="_blank">Comprar</a>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer class="rodape">@2025 - Todos os direitos reservados</footer>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
